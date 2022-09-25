@@ -1,7 +1,7 @@
 object Fm1: TFm1
-  Left = 91
+  Left = 99
   Height = 369
-  Top = 108
+  Top = 94
   Width = 1226
   BorderStyle = bsSingle
   Caption = 'Продажи в Minecraft'

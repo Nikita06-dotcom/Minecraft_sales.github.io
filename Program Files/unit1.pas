@@ -178,7 +178,7 @@ end;
 
 procedure TFm1.Button2Click(Sender: TObject);
 begin
-  OpenURL('http://www.lazarus.freepascal.org');
+  OpenURL('https://nikita06-dotcom.github.io/Minecraft_sales.github.io/');
 end;
 
 procedure TFm1.Button3Click(Sender: TObject);
