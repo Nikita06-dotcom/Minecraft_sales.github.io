@@ -1,0 +1,337 @@
+object Fm1: TFm1
+  Left = 2651
+  Height = 369
+  Top = 463
+  Width = 1226
+  BorderStyle = bsSingle
+  Caption = 'Продажи в Minecraft'
+  ClientHeight = 369
+  ClientWidth = 1226
+  Color = clBtnFace
+  DesignTimePPI = 144
+  Font.CharSet = RUSSIAN_CHARSET
+  Font.Color = clBlack
+  Font.Height = -20
+  Font.Name = 'Small Fonts'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  LCLVersion = '2.2.2.0'
+  object RadioButton1: TRadioButton
+    Left = 8
+    Height = 29
+    Top = 56
+    Width = 118
+    Caption = 'Стаками'
+    Color = clCream
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clCream
+    Font.Height = -20
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 0
+  end
+  object RadioButton2: TRadioButton
+    Left = 184
+    Height = 29
+    Top = 56
+    Width = 184
+    Caption = 'Сумма предметов'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 1
+  end
+  object StaticText1: TStaticText
+    Left = 12
+    Height = 26
+    Top = 11
+    Width = 280
+    Caption = 'Выберите вариант счета предметов'
+    Color = 9946208
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -20
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 2
+  end
+  object LabeledEdit1: TLabeledEdit
+    Left = 8
+    Height = 32
+    Top = 120
+    Width = 360
+    Color = clNone
+    EditLabel.Height = 22
+    EditLabel.Width = 360
+    EditLabel.Caption = 'Кол-во предметов'
+    EditLabel.Color = clCream
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = RUSSIAN_CHARSET
+    EditLabel.Font.Name = 'Small Fonts'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    TabOrder = 3
+  end
+  object LabeledEdit2: TLabeledEdit
+    Left = 8
+    Height = 32
+    Top = 216
+    Width = 360
+    EditLabel.Height = 44
+    EditLabel.Width = 360
+    EditLabel.Caption = 'Цена за 1 единицу товара'#13#10'Вещ. числа писать через запятую'
+    EditLabel.Color = clCream
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = RUSSIAN_CHARSET
+    EditLabel.Font.Name = 'Small Fonts'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    TabOrder = 4
+  end
+  object Memo1: TMemo
+    Left = 800
+    Height = 353
+    Top = 8
+    Width = 417
+    Color = clCream
+    Lines.Strings = (
+      'Memo1'
+    )
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 5
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 38
+    Top = 323
+    Width = 783
+    Caption = 'Рассчитать'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clFuchsia
+    Font.Height = -20
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 6
+  end
+  object CheckBox1: TCheckBox
+    Left = 256
+    Height = 29
+    Top = 274
+    Width = 276
+    Caption = 'Приписка full к командам'
+    TabOrder = 7
+  end
+  object Button2: TButton
+    Left = 632
+    Height = 30
+    Top = 11
+    Width = 159
+    Caption = 'Справка'
+    OnClick = Button2Click
+    TabOrder = 8
+  end
+  object Shape1: TShape
+    Left = 376
+    Height = 203
+    Top = 56
+    Width = 2
+  end
+  object Shape2: TShape
+    Left = 8
+    Height = 30
+    Top = 11
+    Width = 616
+    Brush.Color = clCream
+    Pen.Color = clCream
+    Pen.Style = psClear
+  end
+  object Chb2: TCheckBox
+    Left = 303
+    Height = 29
+    Top = 11
+    Width = 116
+    Caption = 'Простой'
+    TabOrder = 9
+  end
+  object Chb3: TCheckBox
+    Left = 426
+    Height = 29
+    Top = 11
+    Width = 194
+    Caption = 'Настраиваемый'
+    TabOrder = 10
+  end
+  object LabeledEdit3: TLabeledEdit
+    Left = 392
+    Height = 32
+    Top = 88
+    Width = 336
+    EditLabel.Height = 24
+    EditLabel.Width = 336
+    EditLabel.Caption = 'Кол-во в 1 стаке пр-ов'
+    EditLabel.Color = clCream
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = RUSSIAN_CHARSET
+    EditLabel.Font.Color = clBlack
+    EditLabel.Font.Height = -20
+    EditLabel.Font.Name = 'Small Fonts'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    TabOrder = 11
+  end
+  object Button3: TButton
+    Left = 736
+    Height = 28
+    Top = 60
+    Width = 55
+    Caption = '16'
+    OnClick = Button3Click
+    TabOrder = 12
+  end
+  object Button4: TButton
+    Left = 736
+    Height = 28
+    Top = 92
+    Width = 55
+    Caption = '64'
+    OnClick = Button4Click
+    TabOrder = 13
+  end
+  object LabeledEdit4: TLabeledEdit
+    Left = 392
+    Height = 32
+    Top = 216
+    Width = 399
+    Color = clNone
+    EditLabel.Height = 22
+    EditLabel.Width = 399
+    EditLabel.Caption = 'Кол-во оставшихся предметов (до 64 шт.)'
+    EditLabel.Color = clCream
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = RUSSIAN_CHARSET
+    EditLabel.Font.Name = 'Small Fonts'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    TabOrder = 14
+  end
+  object LabeledEdit6: TLabeledEdit
+    Left = 542
+    Height = 32
+    Top = 152
+    Width = 186
+    Color = clNone
+    EditLabel.Height = 22
+    EditLabel.Width = 186
+    EditLabel.Caption = 'Ц. за X пр-ов'
+    EditLabel.Color = clCream
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = RUSSIAN_CHARSET
+    EditLabel.Font.Name = 'Small Fonts'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    TabOrder = 15
+  end
+  object LabeledEdit7: TLabeledEdit
+    Left = 736
+    Height = 32
+    Top = 152
+    Width = 55
+    Color = clNone
+    EditLabel.Height = 22
+    EditLabel.Width = 55
+    EditLabel.Caption = 'X'
+    EditLabel.Color = clCream
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = RUSSIAN_CHARSET
+    EditLabel.Font.Name = 'Small Fonts'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    TabOrder = 16
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 48
+    Top = 264
+    Width = 222
+    Caption = 'Ск. - сколько; ц. - цена'#13#10'Пр-ов - предметов'
+    Color = clCream
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -20
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object Shape3: TShape
+    Left = 240
+    Height = 48
+    Top = 264
+    Width = 2
+  end
+  object LabeledEdit8: TLabeledEdit
+    Left = 392
+    Height = 32
+    Top = 152
+    Width = 144
+    Color = clNone
+    EditLabel.Height = 22
+    EditLabel.Width = 144
+    EditLabel.Caption = 'Кол-во стаков'
+    EditLabel.Color = clCream
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = RUSSIAN_CHARSET
+    EditLabel.Font.Name = 'Small Fonts'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    TabOrder = 17
+  end
+  object Button5: TButton
+    Left = 545
+    Height = 27
+    Top = 264
+    Width = 246
+    Caption = 'Discord сервер автора'
+    OnClick = Button5Click
+    TabOrder = 18
+  end
+  object Label2: TLabel
+    Left = 545
+    Height = 22
+    Top = 288
+    Width = 246
+    Caption = 'Так ты поддержишь меня :3 '
+    Color = clCream
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+end

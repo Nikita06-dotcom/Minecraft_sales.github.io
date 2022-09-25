@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Справка программы Продажи Minecraft 2.0.0</title>
+		<link rel="shortcut icon" href="icon.ico">
+		<style>
+			body {
+			background: #f0f0f0; /* Цвет фона */
+			color: #000000; /* Цвет текста */
+			}
+			p, h1, h2, h3, h4, h5 {font-family: Courier New; }
+			A { text-decoration: none; } A:visited, A:link { color:  #4169E1; }
+			#footer {
+			position: fixed;
+			left: 0; bottom: 0; /* Левый нижний угол */
+			padding: 0px; /* Поля вокруг текста */
+			background: #fffbf0; /* Цвет фона */
+			color: #000000; /* Цвет текста */
+			width: 100%;
+			}   
+			.outline {  background: #fffbf0; }
+			.text {
+			text-align:  center;
+			}
+			.leftimg {
+			float:left; /* Выравнивание по левому краю */
+			margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+			}
+			.rightimg  {
+			float: right; /* Выравнивание по правому краю  */ 
+			margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+			}
+			table, th, td {
+			border: 0px solid black;
+			border-collapse: collapse;
+			}
+			th, td {
+			padding: 15px;
+			} 
+		   .letter {
+			color: #802000; /* Цвет символа */
+		   } 			
+		</style>
+	</head>
+	<body>
+		<div id="footer">https://github.com/Nikita06-dotcom | 2022</div>
+		<div class="text">
+			<h1><b>Справка программы Продажи Minecraft 2.0.0<b/></h1>
+		</div>
+		<table cellspacing="0" border="0" width= 100%>
+			<tr>
+				<th width= 20% >
+					<p></p>
+				</th>
+				<th class="outline" width= 40% height= 100%>
+					<h5><img src="im/1.png" width=80% height=80%></h5>
+					<p>\|/</p>
+					<h2>ЧТО МОЖЕТ ПРОГРАММА</h2>
+					<p style="text-align: left;">Программа позволяет упростить расчёты для выставления на продажу внутри Minecraft сервера. Например, сервер Holyworld имеет такую механику.</p>
+					<p style="text-align: left;">Сложность заключается в том, что перед выставлением товара на ah (магазин внутри сервера) нужно просчитать все до мелочей. В этих проблемах помогает данная программа.</p>
+					<p>&nbsp;</p>
+					<h2>РАЗДЕЛЫ ПРОГРАММЫ</h2>
+					<p style="text-align: left;">Программа делится на два варианта счета: <span style="text-decoration: underline;">ПРОСТОЙ</span> и <span style="text-decoration: underline;">НАСТРАИВАЕМЫЙ</span>.</p>
+					<h3 style="text-align: left;">ПРОСТОЙ</h3>
+					<p style="text-align: left;">Для этого выбора счёта используйте первый вариант - <em>&laquo;Простой&raquo;</em> в разделе <em>&laquo;Выберите вариант счета&raquo;</em>. <span style="color: #ff0000;"><strong>ВАЖНО!!! НЕЛЬЗЯ, ЧТОБЫ ДВА ФЛАЖКА ИЗ РАЗДЕЛА &laquo;ВЫБЕРИТЕ ВАРИАНТ СЧЕТА&raquo; БЫЛО АКТИВНО, НУЖНО ИСПОЛЬЗОВАТЬ ТОЛЬКО ОДИН ВАРИАНТ</strong></span>.</p>
+					<p style="text-align: left;">После нужно выбрать, как будут считаться предметы для продажи. Т. е. можно выбрать счет по стакам (в 1 стаке 64 предмета) или суммарно кол-во всех предметов для продажи. За это отвечают флажки <em>&laquo;Стаками&raquo;</em> и <em>&laquo;Сумма предметов&raquo;</em> соответственно.</p>
+					<p style="text-align: left;">После этого нужно вписать <strong>ЦЕЛОЕ</strong> значение в поле <em>&laquo;Кол-во предметов&raquo;</em> с учётом той категории, которую вы выбрали.</p>
+					<p style="text-align: left;">Ниже есть другое поле ввода: <em>&laquo;Цена за 1 единицу товара&raquo;</em>. В него нужно вписать цену за 1 единицу товара. Например, 22,56 (<strong>Вещественные числа писать только через запятую</strong>).</p>
+					<p style="text-align: left;">Сейчас приведу пример работы программы. Нужно выставить на продажу 44 предмета по 30,8 монет за шт. Для этого мы поставим флажок в варианте <em>&laquo;Простой&raquo;</em> и только там. Затем выберем флажок <em>&laquo;Сумма предметов&raquo;</em> и впишем 44 в поле <em>&laquo;Кол-во предметов&raquo;</em>, затем 30,8 в <em>&laquo;Цена за 1 единицу товара&raquo;</em>. И Нажмём кнопку <em>&laquo;Рассчитать&raquo;</em>. Программа выдаст результат в окне <em>&laquo;Memo 1&raquo;</em>. Там есть вся нужная информация и команды для копирования в саму игру.</p>
+					<h5><img src="im/2.png" width=80% height=80%></h5>
+					<p class="letter"><sup>*В другие поля автоматически подставляются значения. Их не нужно менять.</sup></p>
+					<p style="text-align: left;">Аналогично это работает и со стаками. Например, нужно выставить 2 стака вещей по 23 монеты за штуку на ah. Выполняем все подготовительные процедуры (активные флажки: <em>&laquo;Простой&raquo;</em>, <em>&laquo;Стаками&raquo;</em>. Остальные неактивны) и вписываем 2 в поле <em>&laquo;Кол-во предметов&raquo;</em>, а 23 в <em>&laquo;Цена за 1 единицу товара&raquo;</em>. И Нажимаем кнопку <em>&laquo;Рассчитать&raquo;</em>. Программа выдаст результат в окне <em>&laquo;Memo 1&raquo;</em>. Там есть вся нужная информация и команды для копирования в саму игру.</p>
+					<h5><img src="im/3.png" width=80% height=80%></h5>
+					<p>___</p><h5><img src="im/4.png" width=80% height=80%></h5>
+					<p class="letter"><sup>*В данном случае флажок «Приписка full к командам» активен => команды поменялись.</sup></p>
+					<h3 style="text-align: left;">НАСТРАИВАЕМЫЙ</h3>
+					<p style="text-align: left;">Для этого выбора счёта используйте второй вариант - <em>&laquo;Настраиваемый&raquo;</em> в разделе <em>&laquo;Выберите вариант счета&raquo;</em>. <span style="color: #ff0000;"><strong>ВАЖНО!!! НЕЛЬЗЯ, ЧТОБЫ ДВА ФЛАЖКА ИЗ РАЗДЕЛА &laquo;ВЫБЕРИТЕ ВАРИАНТ СЧЕТА&raquo; БЫЛО АКТИВНО, НУЖНО ИСПОЛЬЗОВАТЬ ТОЛЬКО ОДИН ВАРИАНТ</strong></span>.</p>
+					<p style="text-align: left;">После нужно выбрать, как будут считаться предметы для продажи. Т. е. нужно выбрать сколько в 1 стаке предметов. Можно самому ввести <strong>ЦЕЛОЕ</strong> значение в поле <em>&laquo;Кол-во в 1 стака пр-ов&raquo;</em> или нажать на кнопку <em>&laquo;16&raquo;</em>, для принятия одного стака за 16 предметов. Аналогично работает кнопка <em>&laquo;64&raquo;</em>.</p>
+					<p style="text-align: left;">Ниже этого поля ввода есть другое: <em>&laquo;Кол-во стаков&raquo;</em>. Тут не буду объяснять. Правее &ndash; <em>&laquo;Ц. за X пр-ов&raquo;</em>. В него пишется цена за X предметов, где X берётся из самого правого поля ввода <em>&laquo;X&raquo;</em>. Еще ниже есть поле <em>&laquo;Кол-во ост&hellip;&raquo;</em>. В него вписывается кол-во оставшихся предмето.</p>
+					<p style="text-align: left;">Сейчас приведу пример использования программы. Например, нужно выставить на продажу 44 стака, где один стак равен 16 и 23 шт. по 30,8 монет за 4 шт.</p>					
+					<h5><img src="im/5.png" width=80% height=80%></h5>
+					<p class="letter"><sup>*Сообщение "до 64" можно игнорировать. Также, если флажок «Приписка full к командам» активен, то появятся приписки в конце команд.</sup></p>
+					
+					<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>___________________</p>
+					<p style="text-align: left;" class="letter"><sup><p>Последнее редактирование 26.09.2022 0:10. Заходите в мой Дискорд сервер, нужна помощь… <a href="https://discord.gg/k2uaMkfnvs" target="_blank" rel="noopener" title="Дискорд сервер">Ссылка</a></p></sup></p>				
+				</th>
+				<th width= 20%>
+					<p></p> 
+				</th>
+			</tr>
+		</table>
+	</body>
+</html>
